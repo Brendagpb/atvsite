@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: rgb(205, 220, 231);
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(178, 215, 242);
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: Parisienne;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 20px ;
+}
+.menu a{
+    color: rgb(47, 130, 224);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+.menu a:hover{
+    color: white;
+    background-color: rgb(47, 130, 224);
+    border-radius: 7px;
+}
+#botao{
+    background-color: rgb(47, 130, 224);
+    padding: 10px 25px;
+    color: white;
+    border-radius: 7px;
+    margin-right: 10px;
+    margin: 5%;
+}
+#botao:hover{
+    border: none;
+    background-color: rgb(205, 220, 231);
+    color: rgb(47, 130, 224);
+}
+.linha-cabecalho{
+    flex: 40%;
+    margin-left: 10%;
+    padding-top: 120px;
+    margin-bottom: 40px; 
+}
+.linha-cabecalho h2{
+    font-weight: 900;
+    font-size: 20px;
+    font-family: Lora;
+    margin: 0;
+    padding: 0;
+}
+.linha-cabecalho p{
+    text-align: left;
+    margin-right: 10%;
+    font-size: 15px;
+    padding: 20px;
+}
+.imgcabecalho{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.imgcabecalho img {
+    max-width: 100%;
+    height: auto; 
+    max-height: 500px; 
+}
+.botao-contato{
+    background-color:rgb(47, 130, 224);
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
