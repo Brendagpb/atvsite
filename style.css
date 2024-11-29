@@ -63,7 +63,7 @@ body{
 }
 .linha-cabecalho{
     flex: 40%;
-    margin-left: 10%;
+    margin-left: 10px;
     padding-top: 120px;
     margin-bottom: 40px; 
 }
@@ -76,9 +76,8 @@ body{
 }
 .linha-cabecalho p{
     text-align: left;
-    margin-right: 10%;
     font-size: 15px;
-    padding: 20px;
+    padding: 10px;
 }
 .imgcabecalho{
     display: flex;
